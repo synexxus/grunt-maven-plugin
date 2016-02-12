@@ -118,6 +118,10 @@ public abstract class BaseMavenGruntMojo extends AbstractMojo {
     protected String target() {
         return mavenProject.getBuild().getDirectory();
     }
+    
+    protected String finalName(){
+        return mavenProject.getBuild().getFinalName();
+    }
 
     protected String fullJsSourceDirectory() {
         return basedir() + File.separator + sourceDirectory + File.separator + jsSourceDirectory;

@@ -6,5 +6,6 @@
     "sourceDirectory": "${sourceDirectory}",
     "jsSourceDirectory": "${jsSourceDirectory}",
     "warTargetDirectory": "${warTargetDirectory}",
+    "warName":"${warName}",
     "filteredFiles": ${filteredFiles}
 }
